@@ -4,7 +4,6 @@ import pandas as pd
 
 
 
-
 def tokenize(path):
     data_frame = path
     data_columns = data_frame.columns.tolist()
