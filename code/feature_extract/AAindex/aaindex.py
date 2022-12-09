@@ -41,4 +41,4 @@ data_positive.to_csv('data_pos_aaindex.csv', index=False)
 
 data_negative = feature_extract(data_neg)
 data_negative.head()
-data_negative.to_csv('data_neg_aaindex.csv', index=False)
+data_negative.to_csv('data_neg_aaindex.csv', index=False) 
