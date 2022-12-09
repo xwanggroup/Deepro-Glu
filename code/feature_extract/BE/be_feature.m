@@ -36,4 +36,4 @@ for i=1:num1
 end
 matrix_train=cell2mat(vec);
 save  be_train.mat matrix_train
-
+ 
