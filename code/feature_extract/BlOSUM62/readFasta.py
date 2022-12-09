@@ -21,3 +21,4 @@ def readFasta(file):
 		name, sequence = array[0].split()[0], re.sub('[^ARNDCQEGHILKMFPSTWYV-]', '-', ''.join(array[1:]).upper())
 		myFasta.append([name, sequence])
 	return myFasta
+ 
