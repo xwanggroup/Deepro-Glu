@@ -19,7 +19,7 @@ Lysine glutarylation (Kglu) is a newly discovered post-translational modificatio
 * Folder 'code' contains scripts for training the model and loading data. Load_data.py is the implementation of load raw protein sequences. model.py is the network architecture. Deepro_Glu.py was used to training the proposed model. utils.py is the implementation of calculate model score.
 * Folder 'feature_extract' in folder 'code' contains the feature extract method.  aaindex.py is the implementation of AAindex. be_feature.m and exchange_matrix.m are the implementation of BE. BLOSUM62.py is the implementation of BLOSUM62 matrix. DDE.py is the implementation of dipeptide deviation from expected mean. 
 * Folder 'result' contains model test result. test.py is the implementation of calculate model test result. 
-
+* You can also run Deepro-Glu model on your own datasets. Just replace the train_example.csv in Deepro_Glu.py with your own dataset.
 
  
  
