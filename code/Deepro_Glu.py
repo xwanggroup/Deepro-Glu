@@ -81,7 +81,7 @@ def cal_score(pred, label):
 
     return ACC
 
-
+ 
 class AQYDataset(Dataset):
     def __init__(self, df, train, label, device):
         self.protein_seq = df
