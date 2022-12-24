@@ -37,7 +37,7 @@ random_seed(777)
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-train_data_path = pd.read_csv("train.csv")
+train_data_path = pd.read_csv("./train_example.csv")
 
 def tokenize(path):
     data_frame = path
