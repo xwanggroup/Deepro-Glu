@@ -165,7 +165,7 @@ def validate(model, val_loader, device):
         attention_mask = samples['attention_mask'].to(device)
 
         launch_seq = launch_seq.long().to(device)
-        label = torch.tensor(label).float().to(device)
+        label = torch.tensor(label).float().to(device) 
 
         pred = model(input_ids, token_type_ids, attention_mask, launch_seq)
 
